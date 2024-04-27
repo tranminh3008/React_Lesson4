@@ -28,9 +28,9 @@ const Hook = () => {
             /> <br />
             <button onClick = {handle_plus}>+</button>
             <button onClick = {handle_minus}>-</button>
-            <button onClick = {handle_multi}>*</button>
+            <button onClick = {handle_multi}>x</button>
             <button onClick = {handle_devide}>/</button>
-            <p>Kết quả: {result}</p>
+            <h2>Kết quả: {result}</h2>
         </div>
     );
 }
